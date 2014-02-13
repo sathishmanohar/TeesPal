@@ -2,17 +2,21 @@ body {
   background-color: rgb(237,227,212);
 }
 
+div.clear {
+  clear: both;
+  height: 1px;
+}
+
 .site-logo {
   border: 1px solid rgb(169,102,5);
 }
 
-.current-heading, .site-logo {
+.current-campaign, .site-logo {
   margin-top: 40px;
 }
 
 .subscribe-section {
-  background-color: rgba(255,255,255,0.5);
-  padding: 40px 0;
+  margin: 180px 0;
 }
 
 .footer {
