@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Tees Pal - Tshirts with Atitude</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,7 +14,10 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/custom.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -22,8 +25,54 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2">
+              <a href="/"><img src="img/site-logo.png" alt="Tees Pal logo showing Tshirt" class="site-logo" /></a>
+              <h1><strong>Tees Pal</strong></h1>
+              <p>T-Shirts with Attitude</p>
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10">
+              <h2 class="current-heading">Current Campaign</h2>
+            </div>
+          </div>
 
+          <div class="row subscribe-section">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 text-center">
+              <!-- Begin MailChimp Signup Form -->
+              <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+              <style type="text/css">
+                #mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
+                /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+              </style>
+              <div id="mc_embed_signup">
+                <form action="http://teespal.us3.list-manage1.com/subscribe/post?u=803f89f5cc0ba39ba4c2cb138&amp;id=dfd0483cb7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate role="form">
+                  <div class="form-group">
+                  <label for="mce-EMAIL">Want an email when we launch new T-Shirts?</label>
+                  <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="email address" required>
+                  </div>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;"><input type="text" name="b_803f89f5cc0ba39ba4c2cb138_dfd0483cb7" value=""></div>
+                  <div class="form-group">
+                  <div class="clear"><input type="submit" value="Sure, Tell me" name="subscribe" id="mc-embedded-subscribe" class="button form-control btn btn-primary"></div>
+                  </div>
+                </form>
+              </div>
+
+              <!--End mc_embed_signup-->
+            </div>
+          </div>
+
+          <div class="row footer">
+            <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+              <ul class="list-inline">
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
@@ -40,3 +89,4 @@
         </script>
     </body>
 </html>
+

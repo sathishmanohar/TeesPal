@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(237,227,212);
+}
+
+.site-logo {
+  border: 1px solid rgb(169,102,5);
+}
+
+.current-heading, .site-logo {
+  margin-top: 40px;
+}
+
+.subscribe-section {
+  background-color: rgba(255,255,255,0.5);
+  padding: 40px 0;
+}
+
+.footer {
+  margin-top: 40px;
+}
+
